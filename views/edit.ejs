@@ -11,7 +11,7 @@
     <p class="">this chat was sent from <%= chat.from %> to <%= chat.to %> </p>
     
 
-<form method="POST" action="/chats/<%= chat._id %>?_method=PUT" class="">
+<form method="POST" action="/<%= chat._id %>?_method=PUT" class="">
     <textarea  id="" cols="30" rows="5" name="msg" class=""><%= chat.msg %></textarea>
     <button class="">edit</button>
 </form>

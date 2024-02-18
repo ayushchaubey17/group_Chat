@@ -11,7 +11,7 @@
 
     <h3 class="text-center bg-gray-200 p-2 mb-3  rounded-b-md font-bold text-2xl">All Chats</h3>
 
-    <form method="get" action="/chats/new" class="flex justify-center">
+    <form method="get" action="/new" class="flex justify-center">
         <button class=" border-2   w-fit bg-blue-400 text-white font-bold p-2 rounded-md">new chat</button>
     </form>
 
@@ -21,12 +21,12 @@
         <div class="border-2 border-sky-200 p-2 bg-zinc-400 rounded-b-md">
             <p><span class="font-bold">Message :</span><br> <span class="text-white font-bold text-xl">  <%= chat.msg %></span></p>
          
-         <form action="/chats/<%= chat.id %>/edit" method="get" class="inline">
+         <form action="/<%= chat.id %>/edit" method="get" class="inline">
             <button class="border-2 mx-auto  w-fit bg-blue-500 cursor-pointer font-bold mt-2 text-white px-1 rounded-md">Edit</button>
 
          </form>
           
-         <form action="/chats/<%= chat.id %>?_method=Delete" method="post" class="inline">
+         <form action="/<%= chat.id %>?_method=Delete" method="post" class="inline">
             <button class="border-2 mx-auto  w-fit bg-blue-500 cursor-pointer font-bold mt-2 text-white px-1 rounded-md">Delete</button>
 
          </form>

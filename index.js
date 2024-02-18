@@ -37,7 +37,7 @@ app.listen(port,()=>{
 
 
 //index route
-app.get("/chats", async (req,res)=>{
+app.get("/", async (req,res)=>{
 let chats = await Chat.find();
 console.log(chats);
 res.render("index.ejs",{chats});
@@ -45,7 +45,7 @@ res.render("index.ejs",{chats});
 })
 
 //create route
-app.post('/chats',(req,res)=>{
+app.post('/',(req,res)=>{
   let {from, to ,msg} = req.body;
   let newChat = new Chat(
     {
@@ -57,12 +57,12 @@ app.post('/chats',(req,res)=>{
   );
 
   newChat.save().then(()=>{console.log("save")}).catch(()=>{console.log("res")});
-  res.redirect('/chats');
+  res.redirect('/');
 })
 
 
 //edit route
-app.get('/chats/:id/edit',async (req,res)=>{
+app.get('/:id/edit',async (req,res)=>{
   let {id} = req.params;
   let chat = await Chat.findById(id);
   res.render("edit.ejs",{chat});
@@ -71,29 +71,29 @@ app.get('/chats/:id/edit',async (req,res)=>{
 
 //update route
 
-app.put("/chats/:id", async (req,res)=>{
+app.put("/:id", async (req,res)=>{
   let {id } = req.params;
   let {msg} = req.body;
   console.log(msg,id);
   let updateChat =await Chat.findByIdAndUpdate(id,{msg:msg},{new:true,runValidators:true});
 
   // console.log(updateChat);
-  res.redirect('/chats');
+  res.redirect('/');
 
 })
 
 
 
 //destroy route 
-app.delete("/chats/:id",async (req,res)=>{
+app.delete("/:id",async (req,res)=>{
   let {id} = req.params;
   let deletedChat = await Chat.findByIdAndDelete(id);
   console.log(deletedChat);
-  res.redirect('/chats')
+  res.redirect('/')
 
 
 })
 
-app.get('/chats/new',(req,res)=>{
+app.get('/new',(req,res)=>{
   res.render("new.ejs");
 })
