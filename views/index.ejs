@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-zinc-100">
+
+    <h3 class="text-center bg-gray-200 p-2 mb-3  rounded-b-md font-bold text-2xl">All Chats</h3>
+
+    <form method="get" action="/chats/new" class="flex justify-center">
+        <button class=" border-2   w-fit bg-blue-400 text-white font-bold p-2 rounded-md">new chat</button>
+    </form>
+
+<% for(chat of chats){  %>
+    <div class="mx-4 border-2 p-3 my-3 rounded-md bg-zinc-200 sm:w-3/4 sm:mx-auto  ">
+
+        <div class="border-2 border-sky-200 p-2 bg-zinc-400 rounded-b-md">
+            <p><span class="font-bold">Message :</span><br> <span class="text-white font-bold text-xl">  <%= chat.msg %></span></p>
+         
+         <form action="/chats/<%= chat.id %>/edit" method="get" class="inline">
+            <button class="border-2 mx-auto  w-fit bg-blue-500 cursor-pointer font-bold mt-2 text-white px-1 rounded-md">Edit</button>
+
+         </form>
+          
+         <form action="/chats/<%= chat.id %>?_method=Delete" method="post" class="inline">
+            <button class="border-2 mx-auto  w-fit bg-blue-500 cursor-pointer font-bold mt-2 text-white px-1 rounded-md">Delete</button>
+
+         </form>
+        </div>
+        
+        <p><span class="font-bold">From :</span> <%= chat.from %></p>
+        <p><span class="font-bold">Recieved by</span>  <%= chat.to %></p>
+        <p><span class="font-bold">Time</span>  <%= chat.created_At.toString().split(" ")[4] %></p>
+        <p><span class="font-bold">Date</span>  <%= chat.created_At.toString().split(" ").slice(0,4).join("-") %></p>
+    
+       
+    </div>
+
+
+<%  } %>
+
+</body>
+</html>
+
+
+
+    
