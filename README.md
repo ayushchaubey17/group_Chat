@@ -33,8 +33,18 @@
 
 
 
+
+
+
 <h3>Sms Deleted</h3>
 
 
 ![Screenshot (149)](https://github.com/ayushchaubey17/group_Chat/assets/123767430/26cfddca-c0b1-451f-8cf5-f5694dd73246)
 ![Screenshot (150)](https://github.com/ayushchaubey17/group_Chat/assets/123767430/184bc8ac-c357-4404-8d3b-ea9723c674f0)
+
+
+
+<h1>ScreenShots from mobile</h1>
+
+
+![m1](https://github.com/ayushchaubey17/group_Chat/assets/123767430/bdeccb76-29ad-4ffd-8e17-dfcd507ac1ed)
