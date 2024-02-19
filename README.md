@@ -23,7 +23,7 @@
 
 <h3>Edit the message</h3>
 
-![w4](https://github.com/ayushchaubey17/group_Chat/assets/123767430/81348369-2869-4957-9f4f-ab4ec7f4abdf)
+![w4](https://github.com/ayushchaubey17/group_Chat/assets/123767430/c65dd54c-2a57-4f95-aa8c-87769d90c5a8)
 
 
 <h3>Edit here</h3>
@@ -37,11 +37,13 @@
 
 
 <h3>Updation complete</h3>
-![Screenshot (149)](https://github.com/ayushchaubey17/group_Chat/assets/123767430/cc57fde3-8e03-49d5-a0ae-5a2ac9d8f844)
+
 
 <h3>Delete the sms</h3>
-![Screenshot (150)](https://github.com/ayushchaubey17/group_Chat/assets/123767430/45f63fa2-f91c-40bf-b42a-025272394476)
+
 
 <h3>Sms Deleted</h3>
 
 
+![Screenshot (149)](https://github.com/ayushchaubey17/group_Chat/assets/123767430/26cfddca-c0b1-451f-8cf5-f5694dd73246)
+![Screenshot (150)](https://github.com/ayushchaubey17/group_Chat/assets/123767430/184bc8ac-c357-4404-8d3b-ea9723c674f0)
