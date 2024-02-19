@@ -4,9 +4,10 @@
 ![image](https://github.com/ayushchaubey17/group_Chat/assets/123767430/b2cbb0d7-01b4-416c-89f0-7af811f2b7f3)
 
 
-<h3>New Chat Page</h3>
-![image](https://github.com/ayushchaubey17/group_Chat/assets/123767430/13cbd531-a175-473a-a558-03a142236d9f)
 
+<h3>New Chat Page</h3>
+[![image](https://github.com/ayushchaubey17/group_Chat/assets/123767430/b2cbb0d7-01b4-416c-89f0-7af811f2b7f3)
+](https://github-production-user-asset-6210df.s3.amazonaws.com/123767430/305778891-13cbd531-a175-473a-a558-03a142236d9f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240219T032449Z&X-Amz-Expires=300&X-Amz-Signature=e3a981b49a56a1990712f3a5b1d72dd48713a095e980d4bef875a4cfeac19d28&X-Amz-SignedHeaders=host&actor_id=123767430&key_id=0&repo_id=759327883)
 
 <h3>Sending sms</h3>
 ![image](https://github.com/ayushchaubey17/group_Chat/assets/123767430/5591dfcc-b2ce-4cb1-9f8c-7d351fa0b53d)
