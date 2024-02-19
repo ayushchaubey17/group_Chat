@@ -33,15 +33,6 @@
 
 
 
-<h3>Message written</h3>
-
-
-<h3>Updation complete</h3>
-
-
-<h3>Delete the sms</h3>
-
-
 <h3>Sms Deleted</h3>
 
 
