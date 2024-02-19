@@ -18,8 +18,8 @@
 
 
 <h3>Messsage added to chat list</h3>
-![w3](https://github.com/ayushchaubey17/group_Chat/assets/123767430/0e8efc20-254e-4cc0-aee5-b7bd07c0d3de)
 
+![w3](https://github.com/ayushchaubey17/group_Chat/assets/123767430/dd5c8b36-62fe-4198-9867-18357c18d8eb)
 
 <h3>Edit the message</h3>
 
